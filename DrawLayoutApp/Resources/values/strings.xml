@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">DrawLayoutApp</string>
+    <string name="action_settings">Settings</string>
+
+  <string name="drawer_open">Open navigation drawer</string>
+  <string name="drawer_close">Close navigation drawer</string>
+
+
+  <string-array name="planets_array">
+    <item>Mercury</item>
+    <item>Venus</item>
+    <item>Earth</item>
+  </string-array>
+
+  <string-array name="contents_array">
+    <item>Home</item>
+    <item>Messages</item>
+    <item>About</item>
+  </string-array>
+
+  <string-array name="weburls_array">
+    <item>https://www.google.com/</item>
+    <item>https://msdn.itellyou.cn/</item>
+    <item>https://www.baidu.com/</item>
+  </string-array>
+</resources>
