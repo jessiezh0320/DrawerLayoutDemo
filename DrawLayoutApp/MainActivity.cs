@@ -120,45 +120,11 @@ namespace DrawLayoutApp
             };
         }
 
-        /**
-	     * Fragment that appears in the "content_frame", shows a planet
-	     */
-        //internal class ContentFragment : Fragment
-        //{
-        //    public const string ARG_PLANET_NUMBER = "planet_number";
-
-        //    public ContentFragment()
-        //    {
-        //        // Empty constructor required for fragment subclasses
-        //    }
-
-        //    public static Fragment NewInstance(int position)
-        //    {
-        //        Fragment fragment = new ContentFragment();
-        //        Bundle args = new Bundle();
-        //        args.PutInt(ContentFragment.ARG_PLANET_NUMBER, position);
-        //        fragment.Arguments = args;
-        //        return fragment;
-        //    }
-
-        //    public override View OnCreateView(LayoutInflater inflater, ViewGroup container,
-        //                                       Bundle savedInstanceState)
-        //    {
-        //        View rootView = inflater.Inflate(Resource.Layout.fragment_content, container, false);
-        //        var i = this.Arguments.GetInt(ARG_PLANET_NUMBER);
-        //        var planet = this.Resources.GetStringArray(Resource.Array.planets_array)[i];
-        //        var imgId = this.Resources.GetIdentifier(planet.ToLower(),
-        //                        "drawable", this.Activity.PackageName);
-        //        var iv = rootView.FindViewById<ImageView>(Resource.Id.image);
-        //        iv.SetImageResource(imgId);
-        //        this.Activity.Title = planet;
-        //        return rootView;
-        //    }
-        //}
+        
 
         internal class WebviewFragment : Fragment
         {
-            public const string ARG_NUMBER = "planet_number";
+            public const string ARG_NUMBER = "number";
 
             public WebviewFragment()
             {
